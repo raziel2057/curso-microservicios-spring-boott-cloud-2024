@@ -1,0 +1,12 @@
+spring:
+  application:
+    nameP: registry-server
+server:
+  port: 8761
+  enableSelfPreservation: true
+eureka:
+  client:
+    register-with-eureka: false
+    fetch-registry: false
+  instance:
+    leaseRenewalIntervalInSeconds: 60
